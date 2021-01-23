@@ -19,6 +19,8 @@ public class TAsk_UI_mannager : MonoBehaviour
         {
             canvas.enabled = enable;
             enable = !enable;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }
