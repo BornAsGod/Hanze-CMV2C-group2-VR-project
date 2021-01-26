@@ -15,7 +15,7 @@ public class TAsk_UI_mannager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.JoystickButton1))
         {
             canvas.enabled = enable;
             enable = !enable;

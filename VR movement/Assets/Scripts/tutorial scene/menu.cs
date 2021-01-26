@@ -15,4 +15,11 @@ public class menu : MonoBehaviour
     {
         Application.Quit();
     }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.JoystickButton0))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+    }
 }
